@@ -16,6 +16,7 @@ else:
 # 2. Contagem regressiva
 # Solicite um número e mostre a contagem regressiva até 0.
 
+"""
 num =  int(input("Digite um número: "))
 
 if num <= 0 :
@@ -25,9 +26,26 @@ else:
     while num >= 0:
         print(num)
         num -= 1
+"""
 
 # 3. Soma de números positivos
 # Peça números positivos até que o usuário digite 0. Ao final, exiba a soma total.
+
+lista = []
+
+while True:
+    num = int(input("Digite um número positivo para a soma ou zero para encerrar o calculo: " ))
+    if num < 0:
+        print("Digite um número positivo")
+    elif num > 0:
+        lista.append(num)
+    else:
+        break
+
+soma_total = sum(lista)
+print(f"A soma total dos números digitados é {soma_total}")
+
+
 
 # 4. Senha com repetição
 # Solicite uma senha ao usuário e repita até que ele acerte a senha correta ("1234").
