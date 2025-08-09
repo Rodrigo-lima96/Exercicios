@@ -25,7 +25,7 @@ O foco é desenvolver habilidades em controle de fluxo, operadores, validações
 |-----|-------------------------------------|----------------|
 | 1   | Entrada, saída, `if/else`           | ✅ Finalizado   |
 | 2   | Laços e contadores (`for` / `while`)| ✅ Finalizado   |
-| 3   | Listas e estruturas de dados        | ⏳ A iniciar    |
+| 3   | Listas e estruturas de dados        | ⏳ Em andamento |
 | 4   | Strings e manipulação de texto      | ⏳ A iniciar    |
 | 5   | Funções e reuso de código           | ⏳ A iniciar    |
 | 6   | Módulos e organização               | ⏳ A iniciar    |
